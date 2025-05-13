@@ -11,6 +11,7 @@ namespace IdleTycoon
         [SerializeField] TMP_Text itemSellCountTxt, sellPriceTxt, itemName, itemDescription, showroomCountText, warehouseCountText;
         [SerializeField] Button incButton, decButton;
         [SerializeField] Button sellButton;
+        [SerializeField] TMP_Text itemSellLvlText;
 
         [Header("Sell confirmation")]
         [SerializeField] SellConfirmationScreen sellConfirmationScreen;
@@ -190,11 +191,12 @@ namespace IdleTycoon
             InitializeDescription("BringMore", value);
         }
 
-        public void SetIcon(Sprite icon)
+        public void SetIcon(Sprite icon, int level)
         {
             itemSellIcon.gameObject.SetActive(icon != null);
             itemSellIcon.sprite = icon;
             sellConfirmationScreen.iconSellItem.sprite = icon;
+            itemSellLvlText.text = $"lvl. {level}";
         }
 
         public void SetActiveIncDecButtons(bool value)

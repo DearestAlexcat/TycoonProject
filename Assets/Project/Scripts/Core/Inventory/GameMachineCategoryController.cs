@@ -336,8 +336,8 @@ namespace IdleTycoon
 
             if (selectedSlot.count > 1 && selectedGameMachineLevel < 10) // You can't upgrade above 10
             {
-                combinationInfo.SetIcon1(icon);
-                combinationInfo.SetIcon2(icon);
+                combinationInfo.SetIcon1(icon, selectedGameMachineLevel);
+                combinationInfo.SetIcon2(icon, selectedGameMachineLevel);
                 combinationInfo.SetActiveIncDecButtons(true);
 
                 combinationInfo.NumCombinations = 1;
@@ -345,7 +345,7 @@ namespace IdleTycoon
                 combinationInfo.SetPrice(GetGMUpgradeDisplayData(selectedGameMachineType, selectedGameMachineLevel).upgradeCost);
 
                 GameMachineUpgradeDisplayData newItemDisplayData = GetGMUpgradeDisplayData(selectedGameMachineType, selectedGameMachineLevel + 1);
-                combinationInfo.SetCombinationResultIcon(newItemDisplayData.sprite);
+                combinationInfo.SetCombinationResultIcon(newItemDisplayData.sprite, selectedGameMachineLevel + 1);
 
                 combinationInfo.SetNewItemName(newItemDisplayData.name, selectedGameMachineLevel + 1);
                 combinationInfo.SetNewItemBonus(newItemDisplayData.incomeBonusPercent);
@@ -353,7 +353,7 @@ namespace IdleTycoon
             }
             else
             {
-                combinationInfo.SetIcon1(selectedSlot.count == 1 ? icon : null);
+                combinationInfo.SetIcon1(selectedSlot.count == 1 ? icon : null, selectedGameMachineLevel);
                 combinationInfo.SetIcon2(null);
                 combinationInfo.SetCombinationResultIcon(null);
 
@@ -467,7 +467,7 @@ namespace IdleTycoon
                 itemSellInfo.SetSellPrice(0);
             }
 
-            itemSellInfo.SetIcon(slotData.sprite);
+            itemSellInfo.SetIcon(slotData.sprite, selectedGameMachineLevel);
             itemSellInfo.SetItemBonusText(slotData.incomeBonusPercent);
 
             GameMachineSlotInfo slotInfo = GetSlotInfosByTypeAndLevel(selectedGameMachineType, selectedGameMachineLevel);

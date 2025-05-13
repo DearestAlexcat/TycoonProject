@@ -10,6 +10,8 @@ namespace IdleTycoon
         [SerializeField] Image iconCombine1, iconCombine2, iconCombineResult;
         [SerializeField] TMP_Text numCombinationsTxt, priceCombineTxt, newItemName, newItemDescription;
         [SerializeField] Button incButton, decButton, combineButton;
+        [SerializeField] TMP_Text iconCombine1LvlText, iconCombine2LvlText, iconCombineResultLvlText;
+
 
         public System.Action<int> OnCombinationItemCountChanged;
 
@@ -132,22 +134,25 @@ namespace IdleTycoon
         }
 
 
-        public void SetIcon1(Sprite icon)
+        public void SetIcon1(Sprite icon, int level = 0)
         {
             iconCombine1.gameObject.SetActive(icon != null);
             iconCombine1.sprite = icon;
+            iconCombine1LvlText.text = $"lvl. {level}";
         }
 
-        public void SetIcon2(Sprite icon)
+        public void SetIcon2(Sprite icon, int level = 0)
         {
             iconCombine2.gameObject.SetActive(icon != null);
             iconCombine2.sprite = icon;
+            iconCombine2LvlText.text = $"lvl. {level}";
         }
 
-        public void SetCombinationResultIcon(Sprite icon)
+        public void SetCombinationResultIcon(Sprite icon, int level = 0)
         {
             iconCombineResult.gameObject.SetActive(icon != null);
             iconCombineResult.sprite = icon;
+            iconCombineResultLvlText.text = $"lvl. {level}";
         }
 
         public void SetActiveIncDecButtons(bool value)

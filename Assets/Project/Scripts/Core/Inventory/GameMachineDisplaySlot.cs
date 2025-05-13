@@ -22,7 +22,7 @@ namespace IdleTycoon
 
         private void Start()
         {
-            levelNumber.text = $"ур. {level.ToString()}";
+            levelNumber.text = $"lvl. {level}";
         }
 
         public void SetActiveFrame(bool value)
