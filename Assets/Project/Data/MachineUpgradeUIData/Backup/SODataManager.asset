@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09620590bddb9240bfb54c2122c94b5, type: 3}
+  m_Name: SODataManager
+  m_EditorClassIdentifier: 
+  folderPath: Project/Data/MachineUpgradeUIData/Backup
+  savedScriptableData:
+  - fileName: AirHockeyUpgradeUIData.txt
+    scriptableObject: {fileID: 11400000, guid: 72eae7c9d73e5194c9e5ea15008a8d37, type: 2}
+  - fileName: ArcadeMachineUpgradeUIData.txt
+    scriptableObject: {fileID: 11400000, guid: 52679142e7dd8d64caca5fb08eddfdac, type: 2}
+  - fileName: BasketballGameUpgradeUIData.txt
+    scriptableObject: {fileID: 11400000, guid: a92d8bec88d829248a9c3b4072bcff1c, type: 2}
+  - fileName: ClawMachineUpgradeUIData.txt
+    scriptableObject: {fileID: 11400000, guid: b966f7f5d64a80349bb8691af470bd46, type: 2}
+  - fileName: DanceMachineUpgradeUIData.txt
+    scriptableObject: {fileID: 11400000, guid: ce8c75d089796dc4f91fff9f021190ef, type: 2}
+  - fileName: GamblingMachineUpgradeUIData.txt
+    scriptableObject: {fileID: 11400000, guid: 971eccd2b45de924e9e8b6f7b04d2aa8, type: 2}
+  - fileName: PinballUpgradeUIData.txt
+    scriptableObject: {fileID: 11400000, guid: 0fbb2d68120c2cf4e9bff7d2888d800a, type: 2}

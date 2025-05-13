@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d17fd5cfa5febf24ca79c432f8af013d, type: 3}
+  m_Name: GameMachineUIData
+  m_EditorClassIdentifier: 
+  displayDatas:
+  - name: AMHeaderLv1
+    type: 1
+    sprite: {fileID: 21300000, guid: 87dd9fc33e23ab04b9fd169a4f49ca9d, type: 3}
+    description: AMDescLv1
+    purchaseCost: 1000
+  - name: BMHeaderLv1
+    type: 2
+    sprite: {fileID: 21300000, guid: ff1d5dcbb9efbec408796f26933919f0, type: 3}
+    description: BMDescLv1
+    purchaseCost: 2000
+  - name: DMHeaderLv1
+    type: 3
+    sprite: {fileID: 21300000, guid: ebcddc0ace976244bb5eae6a85df982b, type: 3}
+    description: DMDescLv1
+    purchaseCost: 3000
+  - name: AHHeaderLv1
+    type: 4
+    sprite: {fileID: 21300000, guid: 480180b1891a41649bb29424ae3fdece, type: 3}
+    description: AHDescLv1
+    purchaseCost: 4000
+  - name: CMHeaderLv1
+    type: 5
+    sprite: {fileID: 21300000, guid: 5abccfb9b4720d544922b20b94bbdfa2, type: 3}
+    description: CMDescLv1
+    purchaseCost: 5000
+  - name: GMHeaderLv1
+    type: 6
+    sprite: {fileID: 21300000, guid: e8c07963564014d46b4ffe83585449bb, type: 3}
+    description: GMDescLv1
+    purchaseCost: 6000
+  - name: PMHeaderLv1
+    type: 7
+    sprite: {fileID: 21300000, guid: ca58a3435f2dba84faac9075de0cd049, type: 3}
+    description: PMDescLv1
+    purchaseCost: 7000
+  - name: CSHeaderLv1
+    type: 8
+    sprite: {fileID: 21300000, guid: eec5a6594a429204888d6bcf86c72539, type: 3}
+    description: CSDescLv1
+    purchaseCost: 0

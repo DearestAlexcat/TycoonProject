@@ -1,0 +1,39 @@
+{
+    "displayDatas": [
+        {
+            "type": 1,
+            "description": "OpenAMRoom",
+            "unlockCost": 1000
+        },
+        {
+            "type": 2,
+            "description": "OpenBMRoom",
+            "unlockCost": 3000
+        },
+        {
+            "type": 3,
+            "description": "OpenDMRoom",
+            "unlockCost": 5000
+        },
+        {
+            "type": 7,
+            "description": "OpenPMRoom",
+            "unlockCost": 7000
+        },
+        {
+            "type": 6,
+            "description": "OpenGMRoom",
+            "unlockCost": 8000
+        },
+        {
+            "type": 4,
+            "description": "OpenHMRoom",
+            "unlockCost": 9500
+        },
+        {
+            "type": 5,
+            "description": "OpenCMRoom",
+            "unlockCost": 10000
+        }
+    ]
+}

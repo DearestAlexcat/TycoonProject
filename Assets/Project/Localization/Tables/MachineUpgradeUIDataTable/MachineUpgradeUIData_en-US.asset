@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MachineUpgradeUIData_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: f00faec9b26e9474a906c1fca3d4b55f, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 657184967881130013
+  m_TableData:
+  - m_Id: 5787291648
+    m_Localized: Air Hockey lvl. {0}
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130013
+  - m_Id: 287887790080
+    m_Localized: Arcade Machine lvl. {0}
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130013
+  - m_Id: 291742355456
+    m_Localized: Basketball machine lvl. {0}
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130013
+  - m_Id: 294430904320
+    m_Localized: Claw machine lvl. {0}
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130013
+  - m_Id: 297362722816
+    m_Localized: Dancing machine lvl. {0}
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130013
+  - m_Id: 300248403968
+    m_Localized: Gambling machine lvl. {0}
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130013
+  - m_Id: 302433636352
+    m_Localized: Pinbal lvl. {0}
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130013
+  - m_Id: 1423181025280
+    m_Localized: Brings in <color="yellow">{0}%</color> more income
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130013
+  - m_Id: 1911184101376
+    m_Localized: Brings {0}% more income
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130013
+  - m_Id: 2561242501120
+    m_Localized: 'In the hall: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2781518958592
+    m_Localized: 'In warehouse: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6691763720192
+    m_Localized: New game machine unlocked, level {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13679293829120
+    m_Localized: Are you sure you want to <color="red">sell</color> a gaming machine
+      from <color="red">warehouse</color>?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13949411201024
+    m_Localized: Are you sure you want to <color="red">sell</color> the gaming machine
+      from the <color="red">game room</color>?
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 657184967881130013
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 1423181025280
+        - id: 1911184101376
+        - id: 5787291648
+        - id: 287887790080
+        - id: 291742355456
+        - id: 294430904320
+        - id: 297362722816
+        - id: 300248403968
+        - id: 302433636352

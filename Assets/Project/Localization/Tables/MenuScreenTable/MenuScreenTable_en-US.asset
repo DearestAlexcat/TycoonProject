@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MenuScreenTable_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: 794445db59bcba84eb89d966ce093582, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 657184967881129998
+  m_TableData:
+  - m_Id: 109290131456
+    m_Localized: Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113195028480
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114994384896
+    m_Localized: Profiles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 569665327104
+    m_Localized: Sounds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 572764917760
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 574585245696
+    m_Localized: Autosave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 575952588800
+    m_Localized: Reset progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3203222671360
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4205246091264
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4203463512064
+    m_Localized: "New game\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3608895754240
+    m_Localized: Download
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5626012045312
+    m_Localized: Add
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6374435262464
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5902383124480
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367661602246656
+    m_Localized: Improve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367644929888256
+    m_Localized: Buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367229593128960
+    m_Localized: Sell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 569170952654848
+    m_Localized: Inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 569810667900928
+    m_Localized: 'Inventory categories:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570091375890432
+    m_Localized: Machine merging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570183507972096
+    m_Localized: Combinations allow you to create more expensive models!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570839329345536
+    m_Localized: Multiply your income by buying more game machines.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 571246738870272
+    m_Localized: Selling gaming machines
+    m_Metadata:
+      m_Items: []
+  - m_Id: 571566336446464
+    m_Localized: Replenish your budget by selling unnecessary models.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 574158277906432
+    m_Localized: 'In stock: {0}'
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881129998
+  - m_Id: 578400996757504
+    m_Localized: Buy this game room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 600264901070848
+    m_Localized: Open
+    m_Metadata:
+      m_Items: []
+  - m_Id: 601032844578816
+    m_Localized: CONGRATULATIONS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 601369844322304
+    m_Localized: SALE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 623170754383872
+    m_Localized: Not enough money!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 624746814443520
+    m_Localized: Coming soon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 902991531151360
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 903079385042944
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 903299393064960
+    m_Localized: Are you sure you want to reset your progress?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 903382335426560
+    m_Localized: Attention
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 657184967881129998
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 574158277906432

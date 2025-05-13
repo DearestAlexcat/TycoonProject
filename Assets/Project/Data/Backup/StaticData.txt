@@ -1,0 +1,33 @@
+{
+    "followSpeed": 10.0,
+    "moveLimitsX": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "moveLimitsZ": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "zoomSpeed": 20.0,
+    "minZoom": 20.0,
+    "maxZoom": 60.0,
+    "cameraPosition": {
+        "x": -10.0,
+        "y": 10.0,
+        "z": -10.0
+    },
+    "cameraRotation": {
+        "x": 45.0,
+        "y": 45.0,
+        "z": 0.0
+    },
+    "minBounds": {
+        "x": -15.0,
+        "y": -17.0
+    },
+    "maxBounds": {
+        "x": 20.0,
+        "y": -5.0
+    },
+    "resetData": false
+}

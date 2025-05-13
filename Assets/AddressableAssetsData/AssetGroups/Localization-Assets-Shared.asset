@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fee84112d17b6394b81796a41302a790
+  m_SerializeEntries:
+  - m_GUID: 751fd4dcf67fa9546ba0d40b691d2991
+    m_Address: Assets/Project/Localization/Tables/UnlockRoomDataTable/UnlockRoomData
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 794445db59bcba84eb89d966ce093582
+    m_Address: Assets/Project/Localization/Tables/MenuScreenTable/MenuScreenTable
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b972744ee61ecbe44b8f221f2c6c6613
+    m_Address: Assets/Project/Localization/Tables/GameMachineUIDataTable/GameMachineUIData
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f00faec9b26e9474a906c1fca3d4b55f
+    m_Address: Assets/Project/Localization/Tables/MachineUpgradeUIDataTable/MachineUpgradeUIData
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: fb833e6f029f0bf4ea46a4bba80967e7, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 513cedbab0e1ba6458da03e6aa3634b5, type: 2}
+    - {fileID: 11400000, guid: 06df5837c7a90ef46a38d9bfbe2d7fe0, type: 2}

@@ -1,0 +1,96 @@
+{
+    "type": 1,
+    "baseIncome": 10,
+    "upgradeDatas": [
+        {
+            "name": "AMLvN",
+            "sprite": {
+                "instanceID": 40300
+            },
+            "upgradeCost": 1000,
+            "sellCost": 500,
+            "incomeBonusPercent": 1
+        },
+        {
+            "name": "AMLvN",
+            "sprite": {
+                "instanceID": 40300
+            },
+            "upgradeCost": 2000,
+            "sellCost": 1100,
+            "incomeBonusPercent": 20
+        },
+        {
+            "name": "AMLvN",
+            "sprite": {
+                "instanceID": 40300
+            },
+            "upgradeCost": 3000,
+            "sellCost": 2200,
+            "incomeBonusPercent": 30
+        },
+        {
+            "name": "AMLvN",
+            "sprite": {
+                "instanceID": 40300
+            },
+            "upgradeCost": 4000,
+            "sellCost": 3300,
+            "incomeBonusPercent": 40
+        },
+        {
+            "name": "AMLvN",
+            "sprite": {
+                "instanceID": 40300
+            },
+            "upgradeCost": 5000,
+            "sellCost": 4400,
+            "incomeBonusPercent": 50
+        },
+        {
+            "name": "AMLvN",
+            "sprite": {
+                "instanceID": 40300
+            },
+            "upgradeCost": 6000,
+            "sellCost": 5500,
+            "incomeBonusPercent": 60
+        },
+        {
+            "name": "AMLvN",
+            "sprite": {
+                "instanceID": 40300
+            },
+            "upgradeCost": 7000,
+            "sellCost": 6600,
+            "incomeBonusPercent": 70
+        },
+        {
+            "name": "AMLvN",
+            "sprite": {
+                "instanceID": 40300
+            },
+            "upgradeCost": 8000,
+            "sellCost": 7700,
+            "incomeBonusPercent": 80
+        },
+        {
+            "name": "AMLvN",
+            "sprite": {
+                "instanceID": 40300
+            },
+            "upgradeCost": 9000,
+            "sellCost": 8800,
+            "incomeBonusPercent": 90
+        },
+        {
+            "name": "AMLvN",
+            "sprite": {
+                "instanceID": 40300
+            },
+            "upgradeCost": 10000,
+            "sellCost": 9900,
+            "incomeBonusPercent": 100
+        }
+    ]
+}

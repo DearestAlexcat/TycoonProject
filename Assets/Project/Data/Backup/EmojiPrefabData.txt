@@ -1,0 +1,16 @@
+{
+    "emojiDatas": [
+        {
+            "type": 1,
+            "prefab": {
+                "instanceID": 40652
+            }
+        },
+        {
+            "type": 2,
+            "prefab": {
+                "instanceID": 40654
+            }
+        }
+    ]
+}

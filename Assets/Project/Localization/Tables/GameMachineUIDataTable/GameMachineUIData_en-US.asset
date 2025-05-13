@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameMachineUIData_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: b972744ee61ecbe44b8f221f2c6c6613, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 234011955200
+    m_Localized: Arcade machine lvl. {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 519052660736
+    m_Localized: A classic of gaming halls!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 553517256704
+    m_Localized: Basketball game lvl. {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 624946253824
+    m_Localized: Accuracy, passion and a queue of players!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 672673239040
+    m_Localized: Dancing Machine lvl. {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 831926767616
+    m_Localized: Rhythm, fun and music!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1003490578432
+    m_Localized: Air hockey lvl. {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081160699904
+    m_Localized: Claw machine lvl. {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1224933052416
+    m_Localized: Catch your luck with every capture!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1293992267776
+    m_Localized: Gambling machine lvl. {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1410535198720
+    m_Localized: Spin the reels, catch your luck and watch the coins fly!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1486083002368
+    m_Localized: Pinball lvl. {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1567045652480
+    m_Localized: Mysterious machine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1635890958336
+    m_Localized: The secret machine is getting ready to launch... Expect a surprise!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2330417369088
+    m_Localized: A classic of the genre!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2602929688576
+    m_Localized: A fast-paced game where every throw can be decisive!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

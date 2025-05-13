@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UnlockRoomData_uk-UA
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: uk-UA
+  m_SharedData: {fileID: 11400000, guid: 751fd4dcf67fa9546ba0d40b691d2991, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 657184967881130007
+  m_TableData:
+  - m_Id: 39333335040
+    m_Localized: "\u0412\u0456\u0434\u043A\u0440\u0438\u0442\u0438 \u043A\u0456\u043C\u043D\u0430\u0442\u0443
+      \u0437 \u0430\u0440\u043A\u0430\u0434\u043D\u0438\u043C\u0438 \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0430\u043C\u0438
+      \u0437\u0430 <style=\"Money\">{0}</style> <sprite name=\"Money\">?"
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130007
+  - m_Id: 156618657792
+    m_Localized: "\u0412\u0456\u0434\u043A\u0440\u0438\u0442\u0438 \u043A\u0456\u043C\u043D\u0430\u0442\u0443
+      \u0437 \u0431\u0430\u0441\u043A\u0435\u0442\u0431\u043E\u043B\u044C\u043D\u0438\u043C\u0438
+      \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0430\u043C\u0438 \u0437\u0430 <style=\"Money\">{0}</style>
+      <sprite name=\"Money\">?"
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130007
+  - m_Id: 217914216448
+    m_Localized: "\u0412\u0456\u0434\u043A\u0440\u0438\u0442\u0438 \u043A\u0456\u043C\u043D\u0430\u0442\u0443
+      \u0437 \u0442\u0430\u043D\u0446\u044E\u0432\u0430\u043B\u044C\u043D\u0438\u043C\u0438
+      \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0430\u043C\u0438 \u0437\u0430 <style=\"Money\">{0}</style>
+      <sprite name=\"Money\">?"
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130007
+  - m_Id: 279796977664
+    m_Localized: "\u0412\u0456\u0434\u043A\u0440\u0438\u0442\u0438 \u043A\u0456\u043C\u043D\u0430\u0442\u0443
+      \u043F\u0456\u043D\u0431\u043E\u043B\u044C\u043D\u0438\u0445 \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0456\u0432
+      \u0437\u0430 <style=\"Money\">{0}</style> <sprite name=\"Money\">?"
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130007
+  - m_Id: 300487479296
+    m_Localized: "\u0412\u0456\u0434\u043A\u0440\u0438\u0442\u0438 \u043A\u0456\u043C\u043D\u0430\u0442\u0443
+      \u0437 \u0430\u0437\u0430\u0440\u0442\u043D\u0438\u043C\u0438 \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0430\u043C\u0438
+      \u0437\u0430 <style=\"Money\">{0}</style> <sprite name=\"Money\">?"
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130007
+  - m_Id: 386990804992
+    m_Localized: "\u0412\u0456\u0434\u043A\u0440\u0438\u0442\u0438 \u043A\u0456\u043C\u043D\u0430\u0442\u0443
+      \u0437 \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0430\u043C\u0438 \u0430\u0435\u0440\u043E\u0445\u043E\u043A\u0435\u044E
+      \u0437\u0430 <style=\"Money\">{0}</style> <sprite name=\"Money\">?"
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130007
+  - m_Id: 408872488960
+    m_Localized: "\u0412\u0456\u0434\u043A\u0440\u0438\u0442\u0438 \u043A\u0456\u043C\u043D\u0430\u0442\u0443
+      \u0437 \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0430\u043C\u0438 \u0437
+      \u043A\u043B\u0435\u0448\u043D\u0435\u044E \u0437\u0430 <style=\"Money\">{0}</style>
+      <sprite name=\"Money\">?"
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130007
+  - m_Id: 3117562400768
+    m_Localized: "\u0412\u0456\u0434\u043A\u0440\u0438\u0442\u0438 \u043A\u0456\u043C\u043D\u0430\u0442\u0443
+      \u0437\u0430 <style=\"Money\">{0}</style> <sprite name=\"Money\">"
+    m_Metadata:
+      m_Items:
+      - rid: 657184967881130007
+  references:
+    version: 2
+    RefIds:
+    - rid: 657184967881130007
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 39333335040
+        - id: 156618657792
+        - id: 217914216448
+        - id: 279796977664
+        - id: 300487479296
+        - id: 386990804992
+        - id: 408872488960
+        - id: 3117562400768
