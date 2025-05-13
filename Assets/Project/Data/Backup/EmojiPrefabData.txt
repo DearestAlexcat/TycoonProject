@@ -3,13 +3,13 @@
         {
             "type": 1,
             "prefab": {
-                "instanceID": 40652
+                "instanceID": 39922
             }
         },
         {
             "type": 2,
             "prefab": {
-                "instanceID": 40654
+                "instanceID": 39924
             }
         }
     ]

@@ -4,7 +4,7 @@
             "name": "AMHeaderLv1",
             "type": 1,
             "sprite": {
-                "instanceID": 40382
+                "instanceID": 39652
             },
             "description": "AMDescLv1",
             "purchaseCost": 1000
@@ -13,7 +13,7 @@
             "name": "BMHeaderLv1",
             "type": 2,
             "sprite": {
-                "instanceID": 40552
+                "instanceID": 39820
             },
             "description": "BMDescLv1",
             "purchaseCost": 2000
@@ -22,7 +22,7 @@
             "name": "DMHeaderLv1",
             "type": 3,
             "sprite": {
-                "instanceID": 40534
+                "instanceID": 39802
             },
             "description": "DMDescLv1",
             "purchaseCost": 3000
@@ -31,7 +31,7 @@
             "name": "AHHeaderLv1",
             "type": 4,
             "sprite": {
-                "instanceID": 40554
+                "instanceID": 39822
             },
             "description": "AHDescLv1",
             "purchaseCost": 4000
@@ -40,7 +40,7 @@
             "name": "CMHeaderLv1",
             "type": 5,
             "sprite": {
-                "instanceID": 40562
+                "instanceID": 39830
             },
             "description": "CMDescLv1",
             "purchaseCost": 5000
@@ -49,7 +49,7 @@
             "name": "GMHeaderLv1",
             "type": 6,
             "sprite": {
-                "instanceID": 40536
+                "instanceID": 39804
             },
             "description": "GMDescLv1",
             "purchaseCost": 6000
@@ -58,7 +58,7 @@
             "name": "PMHeaderLv1",
             "type": 7,
             "sprite": {
-                "instanceID": 40564
+                "instanceID": 39832
             },
             "description": "PMDescLv1",
             "purchaseCost": 7000
@@ -67,7 +67,7 @@
             "name": "CSHeaderLv1",
             "type": 8,
             "sprite": {
-                "instanceID": 40566
+                "instanceID": 39834
             },
             "description": "CSDescLv1",
             "purchaseCost": 0
