@@ -71,7 +71,9 @@ namespace IdleTycoon
             {
                 unlockRoomCallback?.Invoke();
 
-                StartCoroutine(DelayedDisplay(false, 0.15f));
+                OnDisplay(false);
+
+                //StartCoroutine(DelayedDisplay(false, 0.15f));
             }
         }
 

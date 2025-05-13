@@ -19,6 +19,11 @@ namespace IdleTycoon
 
             if (Input.GetMouseButtonDown(0))
             {
+                if (EventSystem.current.IsPointerOverGameObject() || EventSystem.current.IsPointerOverGameObject(0))
+                {
+                    return;
+                }
+
                 time = 0;
             }
 
