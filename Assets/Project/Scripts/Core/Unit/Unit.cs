@@ -14,7 +14,7 @@ namespace IdleTycoon
         [HideInInspector] public Room entryRoom;               // Вход в здания
         [HideInInspector] public Room exitRoom;                // Выход из здания
         [HideInInspector] public Transform spawnPoint;
-        [HideInInspector] public List<SingleRoomChooser> rooms;     // Посещаемые комнаты
+        [HideInInspector] public List<Room> rooms;     // Посещаемые комнаты
 
         [HideInInspector] public Transform decisionPoint;
         [HideInInspector] public int currentRoom = -1;
@@ -57,7 +57,7 @@ namespace IdleTycoon
 
             while (currentRoom < rooms.Count)
             {
-                choosedRoom = rooms[currentRoom].GetAvailableRoom();
+                choosedRoom = rooms[currentRoom];
 
                 if (choosedRoom == null)
                 {

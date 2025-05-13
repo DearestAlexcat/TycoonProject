@@ -7,7 +7,7 @@ namespace IdleTycoon
     public class UnitSpawner : MonoBehaviour
     {
         public Room exitRoom;                       // Выход из здания
-        public List<SingleRoomChooser> rooms;       // Посещаемые комнаты
+        public List<Room> rooms;       // Посещаемые комнаты
 
         [Space]
         public Unit unitPrefab;
@@ -36,7 +36,6 @@ namespace IdleTycoon
 
         void DecreaseUnitCount(Unit unit)
         {
-            Debug.Log("qwertyx");
             spawnedUnits.Remove(unit);
         }
 
@@ -44,8 +43,8 @@ namespace IdleTycoon
         {
             int total = 0;
             foreach (var room in rooms)
-                if (room.GetAvailableRoom().IsRoomOpenToVisitors())
-                    total += room.GetAvailableRoom().queuePoints.Count;
+                if (room.IsRoomOpenToVisitors())
+                    total += room.queuePoints.Count;
             return total;
         }
 
@@ -53,8 +52,8 @@ namespace IdleTycoon
         {
             int total = 0;
             foreach (var room in rooms)
-                if (room.GetAvailableRoom().IsRoomOpenToVisitors())
-                    total += room.GetAvailableRoom().occupiedQueuePointCount;
+                if (room.IsRoomOpenToVisitors())
+                    total += room.occupiedQueuePointCount;
             return total;
         }
 
@@ -62,8 +61,8 @@ namespace IdleTycoon
         {
             int total = 0;
             foreach (var room in rooms)
-                if (room.GetAvailableRoom().IsRoomOpenToVisitors())
-                    total += room.GetAvailableRoom().gmPlacement.Count;
+                if (room.IsRoomOpenToVisitors())
+                    total += room.gmPlacement.Count;
             return total;
         }
 
@@ -71,8 +70,8 @@ namespace IdleTycoon
         {
             int total = 0;
             foreach (var room in rooms)
-                if (room.GetAvailableRoom().IsRoomOpenToVisitors())
-                    total += room.GetAvailableRoom().GetCountGameMachinePlacesOccupied();
+                if (room.IsRoomOpenToVisitors())
+                    total += room.GetCountGameMachinePlacesOccupied();
             return total;
         }
 
@@ -113,7 +112,7 @@ namespace IdleTycoon
 
             unit.exitRoom = exitRoom;
 
-            SingleRoomChooser room;
+            Room room;
 
             for (int i = 0; i < rooms.Count; i++)
             {
@@ -137,13 +136,13 @@ namespace IdleTycoon
             unit.GoToRoom();
         }
 
-        SingleRoomChooser GetRandomRoom(Unit unit)
+        Room GetRandomRoom(Unit unit)
         {
-            List<SingleRoomChooser> temp = new List<SingleRoomChooser>();
+            List<Room> temp = new List<Room>();
 
             foreach (var room in rooms)
             {
-                if (room.GetAvailableRoom().IsRoomOpenToVisitors())
+                if (room.IsRoomOpenToVisitors())
                 {
                     if (!unit.rooms.Contains(room))
                         temp.Add(room);
