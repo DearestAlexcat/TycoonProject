@@ -171,14 +171,7 @@ namespace IdleTycoon
 
                     gameMachineSlotInfos[i].gameMachine.level = (i % 10) + 1;
 
-                    //if (UnityEngine.Random.value < 1)
-                    {
-                        gameMachineSlotInfos[i].count = 2;//UnityEngine.Random.Range(8, 9);
-                    }
-                    //else
-                    {
-                        //gameMachineSlotInfos[i].count = 0;
-                    }
+                    gameMachineSlotInfos[i].count = 0;
 
                     UpdateGameMachineStorageData();
                 }

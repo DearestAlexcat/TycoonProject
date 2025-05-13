@@ -91,7 +91,7 @@ namespace IdleTycoon
                     }
 
                     storageData.items[i].gameMachine.level = (i % 10) + 1;
-                    storageData.items[i].count = 1;
+                    storageData.items[i].count = 0;
                 }
 
                 SaveLoadManager.Save(StorageKeys.GameMachines, storageData);
