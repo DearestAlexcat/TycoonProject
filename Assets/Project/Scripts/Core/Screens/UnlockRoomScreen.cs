@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Localization;
@@ -69,8 +70,15 @@ namespace IdleTycoon
             if (Service<MoneyController>.Get().MoneyCount >= unlockCost)
             {
                 unlockRoomCallback?.Invoke();
-                OnDisplay(false);
+
+                StartCoroutine(DelayedDisplay(false, 0.15f));
             }
+        }
+
+        IEnumerator DelayedDisplay(bool show, float delay)
+        {
+            yield return new WaitForSeconds(delay);
+            OnDisplay(show);
         }
     }
 }
