@@ -22,11 +22,11 @@ namespace IdleTycoon
             var entry = entries.Find(e => e.key == key);
             if (entry != null)
             {
-                entry.jsonData = json; // Обновляет существующую запись
+                entry.jsonData = json;
             }
             else
             {
-                entries.Add(new Entry { key = key, jsonData = json }); // Добавляет новую запись
+                entries.Add(new Entry { key = key, jsonData = json });
             }
         }
 
@@ -43,9 +43,9 @@ namespace IdleTycoon
     public class SaveLoadManager : MonoBehaviour
     {
 #if UNITY_EDITOR
-        static readonly string FilePath = Path.Combine("C:\\Users\\sasha\\Desktop\\", "save1.json");
+        static readonly string FilePath = Path.Combine(Application.dataPath, "../_Save.json");
 #else
-    static readonly string FilePath = Path.Combine(Application.persistentDataPath, "save1.json");
+    static readonly string FilePath = Path.Combine(Application.persistentDataPath, "Save.json");
 #endif
 
         static SaveFileData cache;

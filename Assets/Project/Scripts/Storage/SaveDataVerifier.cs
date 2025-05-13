@@ -47,7 +47,7 @@ namespace IdleTycoon
             if (SaveLoadManager.Load<RoomsStorageData>(StorageKeys.Rooms) == null || resetData)
             {
                 RoomsStorageData storageData = new();
-                storageData.lockedRoomIndex = 0;    // На старте доступна для покупки первая комната
+                storageData.lockedRoomIndex = 0;    // The first room is available for purchase at the start
                 SaveLoadManager.Save(StorageKeys.Rooms, storageData);
             }
         }
@@ -57,7 +57,7 @@ namespace IdleTycoon
             if (SaveLoadManager.Load<MoneyStorageData>(StorageKeys.Money) == null || resetData)
             {
                 MoneyStorageData storageData = new();
-                storageData.money = 1000000000;   // At the start we give 1000 dollars
+                storageData.money = 500000;   // At the start we give n dollars
                 SaveLoadManager.Save(StorageKeys.Money, storageData);
             }
         }
