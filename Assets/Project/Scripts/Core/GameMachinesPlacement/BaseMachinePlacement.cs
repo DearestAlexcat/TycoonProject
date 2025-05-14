@@ -73,6 +73,8 @@ namespace IdleTycoon
 
         public int occupiedPlacePointCount = 0;
 
+        public Action<Vector3> OnPlayMoneyFX;
+
         private void Start()
         {
             visualProgress.DisableVisualProgress();
@@ -236,7 +238,7 @@ namespace IdleTycoon
                     {
                         visualProgress.DisableVisualProgress();
                         visualProgress.UnRegisterVisualProgress(timers.First.Value.UniqueId);
-                        visualProgress.PlayMoneyFX();
+                        OnPlayMoneyFX?.Invoke(visualProgress.transform.position);
 
                         isAnimating = false;
 
@@ -275,7 +277,7 @@ namespace IdleTycoon
                         if (node.Value.t / machineRunDuration >= 1f)
                         {
                             visualProgress.UnRegisterVisualProgress(node.Value.UniqueId);
-                            visualProgress.PlayMoneyFX();
+                            OnPlayMoneyFX?.Invoke(visualProgress.transform.position);
 
                             if (ObjectInstalledMachine != null)
                                 visualProgress.VisualizeCostToPlay(incomePerCycle);

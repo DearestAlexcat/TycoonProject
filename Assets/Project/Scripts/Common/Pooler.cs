@@ -41,6 +41,19 @@ namespace IdleTycoon
             return item;
         }
 
+        public T Get(Vector3 position)
+        {
+            T item = Get();
+            item.gameObject.transform.position = position;
+
+            item.gameObject.SetActive(true);
+
+            if (item is IPoolObject<T> link)
+                link.Pooler = this;
+
+            return item;
+        }
+
         public T Get(Vector3 position, Quaternion rotation)
         {
             T item = Get();

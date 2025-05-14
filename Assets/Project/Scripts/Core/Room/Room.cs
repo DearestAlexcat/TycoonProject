@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace IdleTycoon
@@ -10,6 +9,7 @@ namespace IdleTycoon
         public GameMachineType type;
         [SerializeField] BoxCollider inventoryTrigger;
         public float machineRunDuration;
+        [SerializeField] MoneyExplosionCallback moneyFXPrefab;
 
         [Space]
         public Transform enterPoint;                            // Точка входа / принятия решения (зал / очередь / ... / уйти)
@@ -23,6 +23,8 @@ namespace IdleTycoon
         List<Unit> activeUnits = new List<Unit>();              // Юниты в комнате
 
         public List<BaseMachinePlacement> gmPlacement = new List<BaseMachinePlacement>();
+
+        Pooler<MoneyExplosionCallback> moneyFXPool;
 
         bool isOpen = false;
         public int occupiedQueuePointCount = 0;
@@ -40,14 +42,39 @@ namespace IdleTycoon
             }
         }
 
-        private void Start()
+        void Start()
         {
             foreach (var place in gmPlacement)
             {
+                place.OnPlayMoneyFX = PlayMoneyFX;
                 place.machineRunDuration = machineRunDuration;
             }
 
             occupiedQueuePoint = new BitArray(queuePoints.Count);
+        }
+
+        public void PlayMoneyFX(Vector3 position)
+        {
+            if(moneyFXPool == null)
+            {
+                moneyFXPool = new Pooler<MoneyExplosionCallback>(moneyFXPrefab, Mathf.RoundToInt(GetCountSpawnedSlotMachines() * 0.4f));
+            }
+
+            MoneyExplosionCallback ps = moneyFXPool.Get(position);
+            ps.Play();
+        }
+
+        public int GetAvailableGameMachineSpotCount()
+        {
+            int total = 0;
+            foreach (var place in gmPlacement)
+            {
+                if(place.ObjectInstalledMachine != null)
+                {
+                    total += place.playingPlaces.Count;
+                }
+            }
+            return total;
         }
 
         public int GetCountGameMachinePlacesOccupied()

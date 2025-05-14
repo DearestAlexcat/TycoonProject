@@ -62,7 +62,7 @@ namespace IdleTycoon
             int total = 0;
             foreach (var room in rooms)
                 if (room.IsRoomOpenToVisitors())
-                    total += room.gmPlacement.Count;
+                    total += room.GetAvailableGameMachineSpotCount();
             return total;
         }
 
@@ -86,8 +86,9 @@ namespace IdleTycoon
                 int currentMachinesFilled = GetAllRoomCountOccupiedMachinesSpots();
                 int currentQueueFilled = GetAllRoomCountOccupiedQueueSpots();
 
-                int needToSpawn = (desiredMachinesFilled - currentMachinesFilled) +
-                                  (desiredQueueFilled - currentQueueFilled);
+                int needToSpawn = Mathf.Max(0,
+                                (desiredMachinesFilled - currentMachinesFilled) +
+                                (desiredQueueFilled - currentQueueFilled));
 
                 for (int i = 0; i < needToSpawn; i++)
                 {

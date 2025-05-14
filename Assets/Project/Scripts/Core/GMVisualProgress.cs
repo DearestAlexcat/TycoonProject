@@ -13,15 +13,8 @@ namespace IdleTycoon
 
         [Space]
         [SerializeField] PopUpText popUpTextPrefab;
-        [SerializeField] ParticleSystem moneyFX;
 
         Dictionary<Guid, Image> hookedVP;
-
-        public void PlayMoneyFX()
-        {
-            moneyFX.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
-            moneyFX.Play(true);
-        }
 
         public void VisualizeCostToPlay(int costToPlay)
         {

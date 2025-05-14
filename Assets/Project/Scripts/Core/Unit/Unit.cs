@@ -4,7 +4,7 @@ using UnityEngine.AI;
 
 namespace IdleTycoon
 {
-    public class Unit : MonoBehaviour, IPoolObject<Unit>
+    public class Unit : BaseUpdateManager, IPoolObject<Unit>
     {
         [SerializeField] UnitStateAnimation stateAnimation;
         [SerializeField] public NavMeshAgent agent;
@@ -28,8 +28,9 @@ namespace IdleTycoon
 
         public Pooler<Unit> Pooler { get; set; }
 
-        private void Start()
+        void Start()
         {
+            RegisterForUpdate();
             agent.obstacleAvoidanceType = ObstacleAvoidanceType.NoObstacleAvoidance;
         }
 
@@ -74,19 +75,9 @@ namespace IdleTycoon
             {
                 SetDestination(exitRoom.exitPoint, UnitGoal.ReachExitRoom);
             }
-
-            /*if(currentRoom < rooms.Count)
-            {
-                choosedRoom = rooms[currentRoom].GetAvailableRoom();
-                SetDestination(choosedRoom.enterPoint, UnitGoal.ReachEnterPoint);
-            }
-            else
-            {
-                SetDestination(entryExitRoom.exitPoint, UnitGoal.ReachExitRoom);
-            }*/
         }
 
-        void Update()
+        override public void UpdateBehaviour()
         {
             if (!destinationReached)
             {
@@ -198,7 +189,7 @@ namespace IdleTycoon
         {
             stateAnimation.PlayAnimation(AnimationFlags.BreathingIdle);
 
-            this.Pooler.Free(this);
+            Pooler.Free(this);
 
             //Destroy(gameObject);
         }
